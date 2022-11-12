@@ -16,6 +16,7 @@ module.exports = routerProfesor.post('/crearProfesor', async(req,res)=>{
         apellido: req.body.apellido,
         contraseña: req.body.contraseña,
         direccion: req.body.direccion,
+        numero: req.body.numero,
         idioma: req.body.idioma,
         modalidad: req.body.modalidad,
         metodologia: req.body.metodologia,

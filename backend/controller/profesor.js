@@ -15,13 +15,14 @@ module.exports = class Profesor{
         }
     }
 
-    async crearProfesor({mail, nombre, apellido, contraseña, direccion, idioma, modalidad, metodologia,horarios,foto}){
+    async crearProfesor({mail, nombre, apellido, contraseña, direccion, numero, idioma, modalidad, metodologia,horarios,foto}){
         let nuevoProfesor = {
             mail,
             nombre,
             apellido,
             contraseña,
             direccion,
+            numero,
             idioma,
             modalidad,
             metodologia,

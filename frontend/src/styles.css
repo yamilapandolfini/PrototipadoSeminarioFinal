@@ -57,3 +57,15 @@
   .modalidad{
     padding: 2%;
   }
+
+  .ui.card,
+  .ui.cards>.card {
+      margin-left: 40px;
+      display: inline-block;
+      background-color: white;
+      width: 350px !important;
+  }
+  .card .image {
+    width: 1%;
+    height: 1%;
+}

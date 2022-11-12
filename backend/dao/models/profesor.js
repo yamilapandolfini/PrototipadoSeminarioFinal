@@ -6,6 +6,7 @@ const profesorSchema = new Schema({
     apellido:String,
     contraseña:String,
     direccion:String,
+    numero: Number,
     idioma: String,
     modalidad: String,
     metodologia: String,

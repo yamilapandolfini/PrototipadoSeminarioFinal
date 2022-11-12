@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react';
 import ListaProfesores from './listaprofesores';
 import axios from 'axios'
-//import './ItemListContainer.css';
 
 const url = 'http://localhost:8080/prf/listaProfesores'
 
