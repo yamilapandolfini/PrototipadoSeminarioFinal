@@ -1,5 +1,6 @@
 import React from 'react'
-import { Card, Icon, Image, Rating } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
+import { Button, Card, Icon, Image, Rating } from 'semantic-ui-react'
 
 const Profesor = ({ profesor }) => {
   return(
@@ -17,7 +18,6 @@ const Profesor = ({ profesor }) => {
         <Card.Meta>
           <span className='date'>Modalidad: {profesor.modalidad}</span>
         </Card.Meta>
-        <Rating icon='star' defaultRating={3} maxRating={4}>Valoracion</Rating>
         <Card.Description>
           Dirección: {profesor.direccion} {profesor.numero}
         </Card.Description>
@@ -28,11 +28,11 @@ const Profesor = ({ profesor }) => {
           Horarios: {profesor.horarios} hs
         </Card.Description>
       </Card.Content>
-      <Card.Content extra>
-        <a>
+      <Card.Content extra link >
+        <Link to={`/detail/${profesor.id}`}>
           <Icon name='user' />
           Ver perfil
-        </a>
+        </Link>
       </Card.Content>
     </Card>
   )

@@ -27,5 +27,9 @@ module.exports = routerProfesor.post('/crearProfesor', async(req,res)=>{
     res.send(crearProfesor)
 })
 
+module.exports = routerProfesor.get('/mostrarProfesor/:id', async(req,res)=>{
+    const mostrarProfesor = await new Profesores().mostrarProfesor(req.params.id)
+    res.send(mostrarProfesor)
+})
 
 module.exports = routerProfesor

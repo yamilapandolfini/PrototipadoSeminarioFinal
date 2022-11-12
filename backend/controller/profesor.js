@@ -33,6 +33,17 @@ module.exports = class Profesor{
         
     }
 
+    async mostrarProfesor(id){
+        let profesor = await profesorModel.find();
+        let index = profesor.findIndex(f=>f.id==id)
+        console.log(id)
+        console.log(profesor.id)
+        if(index != -1){
+            return profesor[index]
+        }
+
+    }
+
     async modificarAlumno(mail){
         // let listaAlumnos = this.listarAlumnos()
         // let index = (await listaAlumnos).findIndex(f=>f.mail==mail)
