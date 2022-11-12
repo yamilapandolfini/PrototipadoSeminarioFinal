@@ -11,6 +11,7 @@ app.use(cors())
 const routerLogin = require('./routes/login')
 const routerUsuario = require('./routes/usuario')
 const routerEstadisticas = require('./routes/estadisticas')
+const routerProfesores = require('./routes/profesores')
 
 
 app.use(express.static('public'))
@@ -20,6 +21,7 @@ app.use(express.urlencoded({extended: true}))
 app.use('/log', routerLogin)
 app.use('/usr', routerUsuario)
 app.use('/est', routerEstadisticas)
+app.use('/prf', routerProfesores)
 
 
 

@@ -15,5 +15,35 @@ module.exports = class Profesor{
         }
     }
 
-    
+    async crearProfesor({mail, nombre, apellido, contraseña, direccion, idioma, modalidad, metodologia,horarios,foto}){
+        let nuevoProfesor = {
+            mail,
+            nombre,
+            apellido,
+            contraseña,
+            direccion,
+            idioma,
+            modalidad,
+            metodologia,
+            horarios,
+            foto
+        }
+        await profesorModel.create(nuevoProfesor)
+        
+    }
+
+    async modificarAlumno(mail){
+        // let listaAlumnos = this.listarAlumnos()
+        // let index = (await listaAlumnos).findIndex(f=>f.mail==mail)
+        // let alumnoEditar = listaAlumnos[index]
+    }
+
+    async borrarAlumno(){
+        
+    }
+
+    async listarProfesores(){
+        let listaProfesores = await profesorModel.find();
+        return listaProfesores
+    }
 }

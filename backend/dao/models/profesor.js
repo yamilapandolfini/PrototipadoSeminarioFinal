@@ -7,8 +7,10 @@ const profesorSchema = new Schema({
     contraseña:String,
     direccion:String,
     idioma: String,
+    modalidad: String,
     metodologia: String,
     horarios: String,
+    foto: String,
     puntaje: Number,
     valoracion: [{
         calificacion: Number,
