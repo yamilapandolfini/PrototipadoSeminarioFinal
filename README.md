@@ -3,17 +3,17 @@ Este sistema permite gestionar clases de idiomas, dado que al alumno le permite 
 
 ## Como Utilizarlo
 - Clonar este repositorio de manera local, utilizando el comando "git clone". 
-- Una vez clonado, abrir una consola del tipo cmd o a la que utilicen y correr los siguiente comandos:
+- Una vez clonado, situados en el path donde se ubica nuestro repositorio de manera local, procedemos a abrir una consola del tipo cmd o a la que utilicen y correr los siguientes comandos:
 ```
 cd backend
 npm start
 ```
-- Luego procederemos a abrir otra consola y correr los siguientes comandos.
+- Luego procederemos a abrir otra consola, tambien situandonos en el path nuevamente, procedemos a correr los siguientes comandos.
 ```
 cd frontend
 npm start
 ```
-- Este segundo comando nos abrira una ventana en el explorador con el home del Sistema Web
+- Este segundo comando nos abrira una ventana en el explorador con el home del Sistema Web.
 
 ## Se han utilizado las siguientes Tecnologias:
 - NodeJS
