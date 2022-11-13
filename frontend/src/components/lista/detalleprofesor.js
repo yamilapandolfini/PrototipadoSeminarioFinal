@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button, Card, Icon, Image, Rating } from 'semantic-ui-react'
+import { Button, Card, Icon, Image, Rating,Checkbox } from 'semantic-ui-react'
 
 
 const DetalleProfesor = ({ profesor }) => {
@@ -28,6 +28,9 @@ const DetalleProfesor = ({ profesor }) => {
         </Card.Meta>
         <Button floated='right'>Suscribirme</Button>
         <br></br>
+        <br></br>
+        <br></br>
+        <Checkbox label='Datos de contacto validados' defaultChecked />
         <br></br>
         <br></br>
         <Card.Description>
