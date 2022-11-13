@@ -1,5 +1,5 @@
 # Sistema web para la gestión de clases de idiomas en Capital Federal
-Este sistema permite gestionar clases de idiomas, dado que al alumno le permite realizar una busqueda por profesor por cercanica domiciliaria y al profesor una completa gestión de sus clases.
+Este sistema permite gestionar clases de idiomas, dado que al alumno le permite realizar una busqueda de profesores de idiomas por cercanica domiciliaria y a los profesores una completa gestión de sus clases.
 
 ## Como Utilizarlo
 - Clonar este repositorio de manera local, utilizando el comando "git clone". 
