@@ -7,7 +7,8 @@ export default function NavBar() {
         Idiomas a un Click
       </Link>
       <ul>
-        <CustomLink to="/pricing">Usuario</CustomLink>
+        <a>Profesora</a>
+        {/* <a>Profesora</a> */}
         <CustomLink to="/about">Mi cuenta</CustomLink>
       </ul>
     </nav>

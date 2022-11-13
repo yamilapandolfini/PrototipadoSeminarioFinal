@@ -129,3 +129,29 @@
     transition: ease background-color 250ms;
     font-size: 16px;
 }
+
+.micuenta{
+  text-align: center;
+}
+
+.chatboxsimulator{
+  margin-left: 650px;
+  align-content: center;
+}
+
+.coments{
+  margin: 10px 0px;
+  justify-content: right;
+  margin-left: 300px;
+}
+
+.coments2{
+  justify-content: left;
+  text-align: left;
+  width: 300px;
+}
+
+.calendarioprofesores{
+  margin-left: 650px;
+  align-content: center;
+}

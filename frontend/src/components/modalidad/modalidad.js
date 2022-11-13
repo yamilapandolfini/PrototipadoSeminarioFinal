@@ -7,7 +7,7 @@ function Modalidad() {
   return (
     <Form>
       <Form.Field>
-        Modalidad: <b>{value}</b>
+        Modalidad: 
       </Form.Field>
       <Form.Field>
         <Checkbox

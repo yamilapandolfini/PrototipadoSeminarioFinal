@@ -26,7 +26,7 @@ const DetalleProfesor = ({ profesor }) => {
         <Card.Meta>
           <span className='date'>Modalidad: {profesor.modalidad}</span>
         </Card.Meta>
-        <Button floated='right'>Suscribirme</Button>
+        <Button floated='right' >Suscribirme</Button>
         <br></br>
         <br></br>
         <br></br>
@@ -35,6 +35,10 @@ const DetalleProfesor = ({ profesor }) => {
         <br></br>
         <Card.Description>
           Dirección: {profesor.direccion} {profesor.numero}
+        </Card.Description>
+        <br></br>
+        <Card.Description>
+          Barrio: Palermo
         </Card.Description>
         <br></br>
         <Card.Description>
@@ -62,7 +66,8 @@ const DetalleProfesor = ({ profesor }) => {
         </Card.Description>
       </Card.Content>
       <Card.Content extra link >
-      <Button floated='right'>Generar Primer Contacto</Button>
+      <Button floated='left' as={Link} to="/">Volver</Button>
+      <Button floated='right' as={Link} to="/chatbox">Generar Primer Contacto</Button>
       </Card.Content>
     </Card>
   )

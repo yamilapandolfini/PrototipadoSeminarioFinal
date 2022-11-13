@@ -22,6 +22,9 @@ const Profesor = ({ profesor }) => {
           Dirección: {profesor.direccion} {profesor.numero}
         </Card.Description>
         <Card.Description>
+          Barrio: Palermo
+        </Card.Description>
+        <Card.Description>
           Metodología: {profesor.metodologia}
         </Card.Description>
         <Card.Description>
